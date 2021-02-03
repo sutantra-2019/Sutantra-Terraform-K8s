@@ -1,0 +1,8 @@
+# Default values for pact-test.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+albserviceaccount:
+  iamarn: arn:aws:iam::757652839166:role/PACT-Dev-iamserviceaccount-aws-load-balancer
